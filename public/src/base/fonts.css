@@ -1,0 +1,9 @@
+@font-face {
+    font-family: VipnRegular;
+    src: url(../../fonts/vipnagorgialla/vipnagorgialla-rg.otf);
+}
+
+@font-face {
+    font-family: VipnBold;
+    src: url(../../fonts/vipnagorgialla/vipnagorgialla-bd.otf);
+}

@@ -1,0 +1,134 @@
+/* FORM */
+.form-area 
+{ 
+    padding: 15px 0; 
+}
+
+.form-label
+{
+    font-size: 14px;
+    color: var(--s-color); ;
+    display: block;
+    margin: 5px 0;
+}
+
+.form-input
+{
+    padding: 12px;
+    width: 100%;
+    border: 1px solid var(--d-hover);
+    font-size: 12px;
+    background: transparent;
+    text-transform: uppercase;
+    color: var(--l-color);
+}
+
+textarea.form-input 
+{
+    min-height: 200px;
+    resize: none;
+}
+
+select.form-input
+{
+    appearance: none;
+}
+
+.form-input::placeholder
+{
+    color: var(--l-hover);
+}
+
+.form-input:focus
+{
+    border-color: var(--l-hover);
+}
+.form-input:focus::placeholder
+{
+    color: var(--l-color);
+}
+
+.form-select 
+{
+    position: relative;
+}
+
+.form-select svg 
+{
+    position: absolute;
+    top: 50%; right: 10px;
+    transform: translateY(-50%);
+    color: var(--d-color);
+}
+
+/* BUTTONS */
+.btn 
+{
+    padding: 9px 50px;
+    border: 1px solid var(--p-color);
+    font-size: 14px;
+    background: transparent;
+    color: var(--l-color);
+    cursor: pointer;
+    transition: .8s;
+}
+
+.btn:hover, 
+.btn-primary
+{
+    background: var(--p-color);
+    color: var(--d-color);
+}
+
+.btn-primary:hover 
+{
+    background: transparent;
+    color: var(--l-color);
+}
+
+.btn-success
+{
+    background: var(--g-color);
+}
+
+.btn-success:hover 
+{
+    background: var(--g-hover);
+}
+
+.btn-err
+{
+    background: var(--r-color);
+}
+
+.btn-err:hover 
+{
+    background: var(--r-hover);
+}
+
+.btn-light
+{
+    background: var(--l-color);
+    color: var(--b-color);
+}
+
+.btn-light:hover 
+{
+    background: var(--l-hover);
+}
+
+.btn-dark
+{
+    /* background: var(--d-color); */
+    border-color: var(--d-hover);
+    color: var(--p-color);
+    font-weight: 400;
+}
+
+.btn-dark:hover 
+{
+    background: var(--p-color);
+    border-color: var(--p-color);
+    color: var(--d-color);
+}
+

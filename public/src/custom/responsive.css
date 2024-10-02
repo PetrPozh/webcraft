@@ -1,0 +1,322 @@
+@media (max-width: 1439px)
+{
+
+}
+
+@media (max-width: 1199px)
+{
+    .nav-link 
+    {
+        margin-right: 25px;
+    }
+
+    .header-title,
+    .header-title *
+    {
+        font-size: 90px;
+    }
+
+    .service-article
+    {
+        padding: 20px;
+    }
+
+    .service-img 
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+    .service-title 
+    {
+        min-height: 38px;
+    }
+
+    .service-article:hover .service-title 
+    {
+        transform: translate(0, -160%);
+    }
+
+    .prices-type 
+    {
+        min-height: 56px;
+    }
+
+    /* .prices-sum
+    {
+        font-size: 12px;
+    } */
+
+    .price
+    {
+        font-size: 22px;
+    }
+
+}
+
+@media (max-width: 991px)
+{
+
+    .menu-btn,
+    .menu-close
+    {
+        display: block;
+    }
+
+    .nav-link 
+    {
+        margin: 10px 0;
+        width: 113px;
+        text-align: left;
+        font-size: 20px !important;
+    }
+
+    .header-title,
+    .header-title *
+    {
+        font-size: 64px;
+    }
+
+    .service-img 
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+    .service-col2
+    {
+        border-top: 1px solid var(--d-hover);
+        border-left: 1px solid var(--d-hover);
+        border-right: 0;
+    }
+
+    .service-col3
+    {
+        border-left: 0;
+        border-right: 0;
+    }
+
+    .service-col3,
+    .service-col4
+    {
+        border-bottom: 1px solid var(--d-hover);
+    }
+
+    .service-col4
+    {
+        border-left: 1px solid var(--d-hover);
+    }
+
+    .list-title 
+    {
+        font-size: 26px;
+    }
+
+    .list-row:hover .list-title 
+    {
+        transform: none;
+        opacity: 0;
+    }
+
+    .list-text 
+    {
+        right: auto;
+        left: 10px;
+        width: calc(100% - 20px);
+    }
+
+
+
+    .p-art2
+    {
+        aspect-ratio: auto;
+        height: 100%;
+
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+
+    .portfolio-content 
+    {
+        position: relative;
+    }
+
+    .site-title,
+    .site-type
+    {
+        position: static;
+    }
+
+    .site-title
+    {
+        font-size: 22px;
+    }
+
+    .site-type
+    {
+        font-size: 12px;
+    }
+
+    .content-v:hover *,
+    .content-h:hover *
+    {
+        transform: none !important;
+    }
+
+
+    .prices-title 
+    {
+        font-size: 36px;
+    }
+
+    .prices-article
+    {
+        padding: 30px 10px;
+    }
+
+    .footer-menu
+    {
+        display: none;
+    }
+
+
+    /* /////////////////////// */
+
+    .step-num
+    {
+        font-size: 40px;
+    }
+
+}
+
+@media (max-width: 767px)
+{
+    .logo-img 
+    {
+        height: 40px;
+    }
+
+    .get-link
+    {
+        display: none;
+    }
+
+   
+
+    .header-title,
+    .header-title *
+    {
+        font-size: 28px;
+    }
+
+    .header-str, 
+    .header-str * 
+    {
+        font-size: 14px !important;
+    }
+
+    .header-text 
+    {
+        font-size: 16px;
+    }
+
+    .service-col1,
+    .service-col2,
+    .service-col3,
+    .service-col4
+    {
+        border: none;
+    }
+
+    .service-article .service-img 
+    {
+        width: 60px;
+        height: 60px;
+        transform: translateY(-35px);
+    }
+
+    .service-article .service-title 
+    {
+        transform: translate(0, -160%);
+        color: var(--l-color);      
+    }
+
+    .service-article .service-text 
+    {
+        opacity: 1;
+    }
+
+    .offer-title, 
+    .offer-title *
+    {
+        font-size: 14px;
+    }
+
+    .list-title,
+    .list-text
+    {
+        font-size: 12px;
+    }
+
+    .portfolio-article 
+    {
+        aspect-ratio: 1 / 1;
+    }
+
+    .prices-title
+    {
+        font-size: 14px;
+    }
+
+    .prices-swipe
+    {
+        display: inline-flex;
+        flex-wrap: nowrap;
+    }
+
+    .prices-swipe .col 
+    {
+        padding: 10px;
+        min-width: 80% !important;
+    }
+
+
+    /* ////////////////////// */
+
+    .choose-str  
+    {
+        font-size: 14px;
+    }
+
+    .popup 
+    {
+        padding: 20px;
+        padding-top: 30px;
+    }
+
+    .popup-title 
+    {
+        font-size: 20px;
+    }
+    
+    .popup-social
+    {
+        margin: 0 2px;
+    }
+
+    .popup-head 
+    {
+        top: 10px; right: 10px;
+    }
+
+    .popup-thanks
+    {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 567px)
+{
+    
+}

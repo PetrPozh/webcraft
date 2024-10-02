@@ -1,0 +1,90 @@
+/* RESET DEFAULT STYLES */
+:root 
+{
+    --p-color: #df6140;
+    --p-hover: #08e;
+    --p-active: #09f;
+    --p-disable: #59f;
+
+    --s-color: #888;
+    --s-hover: #999;
+    --s-active: #aaa;
+    --s-disable: #bbb;
+
+    --t-color: #308;
+    --t-hover: #50b;
+    --t-active: #60c;
+    --t-disable: #64c;
+
+    --w-color: #fff;
+    --w-hover: #eee;
+    --w-active: #ddd;
+    --w-disable: #ccc;
+
+    --b-color: #000;
+    --b-hover: #222;
+    --b-active: #333;
+    --b-disable: #444;
+
+    --d-color: #0e0e0e;
+    --d-hover: #1f1d1b;
+    --d-active: #101010;
+    --d-disable: #777;
+
+    --l-color: #b6ab99;
+    --l-hover: #7b7469;
+    --l-active: #eee;
+    --l-disable: #ddd;
+
+    --g-color: #590;
+    --g-hover: #6b0;
+    --g-active: #7c0;
+    --g-disable: #7c6;
+
+    --r-color: #a20;
+    --r-hover: #c20;
+    --r-active: #d30;
+    --r-disable: #d33;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: Inter, sans-serif;
+    line-height: 1.4em;
+    list-style: none;
+}
+
+body { background: var(--d-color); }
+
+img, iframe, video, input, textarea
+{ width: 100%; }
+
+textarea { resize: vertical; }
+
+h1, h2, h3, h4, h5, h6 
+{ font-weight: bold; }
+
+p, a, span, label, li, address, time, b, strong, i, em, u, s, q 
+{ font-size: 16px; font-weight: normal; } 
+
+a 
+{
+    cursor: pointer;
+}
+
+.pos-a
+{
+    position: absolute;
+    top: 0; left: 0;
+}
+
+.pos-r 
+{
+    position: relative;
+}

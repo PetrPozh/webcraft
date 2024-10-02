@@ -1,0 +1,565 @@
+.header video 
+{
+    object-fit: cover;
+}
+
+.header-nav
+{
+    padding: 5px 0;
+    min-height: 100px;
+}
+
+.logo-img 
+{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.nav-link 
+{
+    color: var(--l-color);
+    margin-right: 25px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid transparent;
+}
+
+.header-nav .nav-link:hover 
+{
+    border-color: var(--p-color);
+}
+
+.get-link 
+{
+    color: var(--p-color);
+}
+
+.get-link:hover .icon-img,
+.prices-article:hover .icon-img
+{
+    transform: rotate(45deg);
+}
+
+.menu-btn,
+.menu-close 
+{
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    cursor: pointer;
+    transition: .8s;
+    display: none;
+}
+
+
+.menu-close
+{
+    width: 32px;
+    height: 32px;
+}
+
+.menu-close:hover,
+.menu-btn:hover 
+{
+    opacity: .8;
+}
+
+.mob-menu
+{
+    position: fixed;
+    top: 100px; left: 0;
+    background: var(--d-color);
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+
+.header-title
+{
+    font-family: VipnBold;
+    font-size: 116px;
+    line-height: .9em;
+    color: var(--l-color);
+}
+
+.header-sym 
+{
+    font-size: 116px;
+    font-weight: 700;
+    line-height: 0em;
+    /* -webkit-text-stroke: 2px var(--p-color);
+    -webkit-text-fill-color: transparent; */
+    color: var(--d-color);
+    text-shadow: -1px -1px 0 var(--p-color), 1px -1px 0 var(--p-color), -1px 1px 0 var(--p-color),1px 1px 0 var(--p-color);
+}
+
+.header-str, 
+.header-str * 
+{
+    font-size: 24px;
+}
+
+.header-str
+{
+    color: var(--l-color);
+}
+
+.header-text
+{
+    font-size: 18px;
+}
+
+.header-string
+{
+    max-height: 48px;
+    width: auto;
+}
+
+/* ///////////////////////////////////////// */
+
+.who 
+{
+    background: linear-gradient(to top, var(--d-color) 88%, rgba(0, 0, 0, 0));
+    margin-top: -100px;
+    position: relative;
+}
+
+
+/* ///////////////////////////////////////// */
+
+
+
+.service-col1,
+.service-col4
+{
+    border-top: 1px solid var(--d-hover);
+}
+
+.service-col2,
+.service-col3
+{
+    border-top: 1px solid var(--d-hover);
+    border-left: 1px solid var(--d-hover);
+    border-right: 1px solid var(--d-hover);
+}
+
+.service-article
+{
+    background: var(--d-active);
+    padding: 40px 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.service-img 
+{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.service-title
+{
+    width: 100%;
+    text-align: center;
+    color: var(--l-hover);
+}
+
+.service-text
+{
+    position: absolute;
+    top: 55%; left: 0;
+    width: 100%;
+    text-align: left;
+    padding: 0 20px;
+    font-size: 12px !important;
+    color: var(--l-hover);
+    opacity: 0;
+    
+}
+
+.service-article:hover .service-img 
+{
+    width: 60px;
+    height: 60px;
+    /* transform: translate(-70px, -35px); */
+    transform: translateY(-35px);
+}
+
+.service-article:hover .service-title 
+{
+    transform: translate(0, -350%);
+    color: var(--l-color);
+    /* text-align: left; */
+    
+    
+}
+
+.service-article:hover .service-text 
+{
+    opacity: 1;
+}
+
+
+/* ///////////////////////////////////////// */
+
+.offer-title,
+.offer-title * 
+{
+    font-size: 20px;
+    color: var(--l-color);
+}
+
+.list-row
+{
+    border-top: 1px solid var(--d-hover);
+    position: relative;
+    cursor: pointer;
+}
+
+.list-row:last-of-type
+{
+    border-bottom: 1px solid var(--d-hover);
+}
+
+.list-num 
+{
+    font-size: 18px;
+}
+
+.list-title
+{
+    font-family: VipnBold;
+    font-size: 40px;
+}
+
+.list-text 
+{
+    position: absolute;
+    top: 50%; right: 25%;
+    transform: translateY(-50%);
+    color: var(--d-color) !important;
+    opacity: 0;
+}
+
+.list-row:hover
+{
+    background: var(--p-color);
+}
+
+.list-row:hover .list-num 
+{
+    opacity: 0;
+}
+
+.list-row:hover .list-title 
+{
+    transform: translateX(-50%)scale(.6);
+    color: var(--d-color) !important;
+} 
+
+.list-row:hover .list-text 
+{
+    opacity: 1;
+} 
+
+/* ///////////////////////////////////////// */
+
+.portfolio-article 
+{
+    
+    position: relative;
+    padding: 20px;
+    
+}
+
+.portfolio-wrap 
+{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.site-img 
+{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(1)brightness(.5);
+}
+
+.site-title,
+.site-type
+{
+    position: relative;
+}
+
+.content-v .site-title,
+.content-v .site-type
+{
+    top: 65px;
+}
+
+.content-h .site-title,
+.content-h .site-type
+{
+    right: 35px;
+}
+
+.site-title
+{
+    font-size: 42px;
+    font-weight: 400;
+    width: 100%;
+}
+
+.site-type
+{
+    font-size: 12px;
+    width: 100%;
+}
+
+
+.content-v:hover .site-title
+{
+    transform: translate(-25%, 50%)scale(.6);
+}
+
+.content-v:hover .site-type
+{
+    transform: translate(-5%, 100%);
+}
+
+.content-h:hover .site-title
+{
+    transform: translateX(15%)scale(.6);
+}
+
+.content-h:hover .site-type
+{
+    transform: translate(35%, -50%);
+}
+
+.content-last:hover .site-title
+{
+    transform: translate(-31%, 50%)scale(.6);
+}
+
+.content-last:hover .site-type
+{
+    transform: translate(-10%, 100%);
+}
+
+
+
+.portfolio-article:hover .site-img 
+{
+    transform: scale(1.1);
+    filter: grayscale(0);
+} 
+
+
+
+
+/* ///////////////////////////////////////// */
+
+.prices-title 
+{
+    font-family: VipnBold;
+    font-size: 60px;
+    color: var(--d-color);
+    text-shadow: -1px -1px 0 var(--p-color), 1px -1px 0 var(--p-color), -1px 1px 0 var(--p-color),1px 1px 0 var(--p-color);
+}
+
+.prices-article
+{
+    background: var(--d-active);
+    padding: 40px 20px;
+    border-bottom: 1px solid transparent;
+}
+
+.prices-icon 
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: var(--d-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prices-img 
+{
+    width: 34px;
+    height: 34px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.prices-type, 
+.prices-type span 
+{
+    font-family: VipnRegular;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--l-hover);
+}
+
+
+.prices-sum 
+{
+    font-size: 9px;
+}
+
+.price 
+{
+    font-size: 30px;
+}
+
+.prices-list 
+{
+    min-height: 250px;
+    padding-left: 24px;
+    
+}
+
+.prices-item 
+{
+    font-size: 12px;
+    margin: 18px 0;
+    color: var(--l-hover);
+    list-style: outside;
+}
+
+.prices-item::marker
+{
+    color: var(--p-color);
+    font-size: 24px;
+}
+
+/* .prices-item:before 
+{
+    content: "•";
+    font-size: 24px;
+    color: var(--p-color);
+    margin-right: 10px;
+} */
+
+.prices-btn 
+{
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--p-color) !important;
+}
+
+.prices-article:hover
+{
+    border-color: var(--p-color);
+}
+
+/* ///////////////////////////////////////// */
+
+.footer-nav
+{
+    min-height: 120px;
+    padding: 5px 0;
+    border-top: 1px solid var(--d-hover);
+    border-bottom: 1px solid var(--d-hover);
+}
+
+.footer-nav .nav-link:hover 
+{
+    color: var(--p-color);
+}
+
+
+/* ///////////////////////////////////////// */
+.about-title 
+{
+    font-family: VipnBold;
+    font-size: 56px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.about-subtitle 
+{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.about-text 
+{
+    font-size: 14px;
+}
+
+/* ///////////////////////////////////////// */
+
+.step-row 
+{
+    padding: 30px 0;
+    border-top: 1px solid var(--d-hover);
+}
+
+.step-row:last-of-type
+{
+    border-bottom: 1px solid var(--d-hover);
+
+}
+
+
+.step-num 
+{
+    font-family: VipnBold;
+    font-size: 60px;
+    color: var(--d-color);
+    text-shadow: -1px -1px 0 var(--p-color), 1px -1px 0 var(--p-color), -1px 1px 0 var(--p-color),1px 1px 0 var(--p-color);
+}
+
+.step-text 
+{
+    color: var(--l-hover);  
+}
+
+/* ///////////////////////////////////////// */
+
+.choose-text 
+{
+    color: var(--l-hover);
+}
+
+/* ///////////////////////////////////////// */
+
+
+
+.get-in-title,
+.get-in-title *
+{
+    font-family: VipnBold;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.get-in-title
+{
+    color: var(--l-color);
+}
+
+.get-in-str
+{
+    color: var(--d-color);
+    text-shadow: -1px -1px 0 var(--p-color), 1px -1px 0 var(--p-color), -1px 1px 0 var(--p-color),1px 1px 0 var(--p-color);
+}
