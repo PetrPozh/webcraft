@@ -7,15 +7,15 @@
             <div class="s-m3 d-none d-l-block">
                 <p class="slogan pt30 ">My mission</p>
             </div>
-            <div class="s-l9 t-light">
-                <h2 class="about-title t-center t-l-left">About</h2>
+            <div class="s-l9">
+                <h2 class="about-title t-center t-l-left t-light">About</h2>
 
                 <div class="fx mt20">
                     <div class="s-m4 pr5">
                         <img src="/img/about.webp" alt="">
                     </div>
                     <div class="s-m8 pl20">
-                        <div class="s-l7">
+                        <div class="s-l7 t-secondary">
                             <p class="about-text">I'm a combat veteran with a lot of experience under my belt and know how to act clearly, quickly and efficiently - that's what you want from your website! Each task is thought through and analyzed to the smallest detail.
                             </p> 
                             <p class="about-text mt20">I know exactly how to make your project successful and will do my best because I don't look at the obstacles, only focus on the goal.
@@ -39,7 +39,7 @@
                 <h3 class="step-title fs10 fw600 t-upper t-light">Individual Approach</h3>
             </div>
             <div class="s-m6 pl-m20 mt10">
-                <p class="step-text fs12">I thoroughly study your business, your goals, and your audience to create a website that fully meets your needs. I am always open to communication and ready to listen to your wishes and ideas.</p>
+                <p class="step-text fs11">I thoroughly study your business, your goals, and your audience to create a website that fully meets your needs. I am always open to communication and ready to listen to your wishes and ideas.</p>
             </div>
         </div>
         <div class="step-row fx f-m">
@@ -50,7 +50,7 @@
                 <h3 class="step-title fs10 fw600 t-upper t-light">High Quality and Reliability</h3>
             </div>
             <div class="s-m6 pl-m20 mt10">
-                <p class="step-text fs12">My experience and skills allow me to create websites that work flawlessly. I pay special attention to testing and debugging so that your site functions without glitches and problems. You can be sure that your site will be protected from technical issues.</p>
+                <p class="step-text fs11">My experience and skills allow me to create websites that work flawlessly. I pay special attention to testing and debugging so that your site functions without glitches and problems. You can be sure that your site will be protected from technical issues.</p>
             </div>
         </div>
         <div class="step-row fx f-m">
@@ -61,7 +61,7 @@
                 <h3 class="step-title fs10 fw600 t-upper t-light">Support and Maintenance</h3>
             </div>
             <div class="s-m6 pl-m20 mt10">
-                <p class="step-text fs12">After the project is completed, I do not leave you alone with your site. I provide support and maintenance services to keep your site always up-to-date and effective. Updates, improvements, and technical support – all this you get within our cooperation.</p>
+                <p class="step-text fs11">After the project is completed, I do not leave you alone with your site. I provide support and maintenance services to keep your site always up-to-date and effective. Updates, improvements, and technical support – all this you get within our cooperation.</p>
             </div>
         </div>
     </div>
@@ -75,7 +75,7 @@
         <div class="s-l9 mt40 mt-l0">
             <div class="fx">
                 <div class="s-m5 s-l4 offset-m4">
-                    <p class="choose-text fs12">One of my main advantages is the experience I&nbsp;gained through life’s challenges.</p>
+                    <p class="choose-text fs11">One of my main advantages is the experience I&nbsp;gained through life’s challenges.</p>
                 </div>
             </div>
             <p class="choose-str t-upper t-light my20">I am a veteran of military operations, and this experience has taught me to value responsibility and attention to detail. When approaching each project, I put in maximum effort, strive to consider all nuances and client needs.</p>
@@ -84,7 +84,7 @@
 
             <div class="fx mt20">
                 <div class="s-m5 s-l4 offset-m4">
-                    <p class="choose-text fs12">I value the trust you place in me by choosing my services. In turn, I promise to put all my knowledge, experience, and effort into making your project successful and bringing you joy and profit.</p>
+                    <p class="choose-text fs11">I value the trust you place in me by choosing my services. In turn, I promise to put all my knowledge, experience, and effort into making your project successful and bringing you joy and profit.</p>
                 </div>
             </div>
         </div>

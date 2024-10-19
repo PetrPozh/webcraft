@@ -36,7 +36,7 @@ hr
 {
     font-size: 14px;
     text-transform: uppercase;
-    color: var(--l-color);
+    color: var(--l-hover);
 }
 
 .slogan:before 

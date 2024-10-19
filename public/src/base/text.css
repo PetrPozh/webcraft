@@ -118,6 +118,7 @@
 .fs12 *
 { font-size: clamp(12px, 0.7045rem + 0.2273vw, 14px) !important; }
 
+
 @media (min-width: var(-screen-s))
 {
     .t-s-center { text-align: center; }

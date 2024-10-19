@@ -32,8 +32,8 @@
             <div class="s-l6">
                 <p class="slogan">Who we are</p>
             </div>
-            <div class="s-l6 t-light mt40 mt-l0">
-                <div class="fx fs12 mt20">
+            <div class="s-l6 t-secondary mt40 mt-l0">
+                <div class="fx fs11 mt20">
                     <div class="s-m6 pr10">
                         <p class="who-text">
                             We create websites that load instantly. Instant download – instant sale. Your customers stay with you from the first seconds!
@@ -58,7 +58,7 @@
 
 
 <section class="section p0">
-    <div class="container fx t-center t-light fs12 tn">
+    <div class="container fx t-center fs11 tn">
         <div class="s-s6 s-l3">
             <article class="service-col1 p20">
                 <div class="service-article rect fx f-col f-m f-se">
@@ -113,7 +113,7 @@
         </div>
         <div class="fx mt30">
             <div class="s-l3 offset-l6">
-                <p class="offer-text fs12 t-light">Do you want more? We take on any exclusive projects and calculate an individual cost for a turnkey project.</p>
+                <p class="offer-text fs11 t-secondary">Do you want more? We take on any exclusive projects and calculate an individual cost for a turnkey project.</p>
             </div>
         </div>
 
@@ -185,7 +185,7 @@
                 <p class="slogan">Our portfolio</p>
             </div>
             <div class="col s-m4 mt20 mt-m0">
-                <p class="portfolio-text fs12 t-light">Check out our latest work to see that we are really professionals</p>
+                <p class="portfolio-text fs11 t-secondary">Check out our latest work to see that we are really professionals</p>
             </div>
         </div>
 
@@ -246,19 +246,19 @@
     <div class="container">
         <h2 class="prices-title t-upper t-center">Let's start your project</h2>
 
-        <div class="prices-swipe scroll-h fx mt70">
-            <div class="col s-m4">
-                <article class="prices-article h100 tn">
+        <div class="fx mt70">
+            <div class="col s-m6 s-l4 d-none d-l-block">
+                <article class="prices-article h100 tn my20 my-m0">
                     <div class="fx f-c f-m h100">
                        
-                        <h3 class="prices-type t-upper"><span class="t-primary">[ </span>Coming soon<span class="t-primary"> ]</span> </h3>
+                        <h3 class="prices-type t-upper"><span class="t-primary">[ </span><span class="t-secondary">Coming soon</span><span class="t-primary"> ]</span> </h3>
                            
                     </div>
                 </article>
             </div>
 
-            <div class="col s-m4">
-                <article class="prices-article tn">
+            <div class="col s-m6 s-l4">
+                <article class="prices-article tn my20 my-m0">
                     <div class="fx">
                         <div class="s-l3">
                             <div class="prices-icon">
@@ -267,8 +267,8 @@
                         </div>
                         <div class="s-l9 pl10">
                             <h3 class="prices-type t-upper"><span class="t-primary">Strong</span> savings</h3>
-                            <p class="prices-sum t-upper t-light"><span class="price">$ 150</span> / per&nbsp;month&nbsp;subscription</p>
-                            <p class="t-light">5 pages website</p>
+                            <p class="prices-sum t-upper"><span class="price">$ 150</span> / per&nbsp;month&nbsp;subscription</p>
+                            <p class="t-secondary">5 pages website</p>
 
                             <ul class="prices-list mt30">
                                 <li class="prices-item">Any edits in one day</li>
@@ -283,8 +283,8 @@
                 </article>
             </div>
 
-            <div class="col s-m4">
-                <article class="prices-article tn">
+            <div class="col s-m6 s-l4">
+                <article class="prices-article tn my20 my-m0">
                     <div class="fx">
                         <div class="s-l3">
                             <div class="prices-icon">
@@ -293,8 +293,8 @@
                         </div>
                         <div class="s-l9 pl10">
                             <h3 class="prices-type t-upper"><span class="t-primary">Real</span> VIP</h3>
-                            <p class="prices-sum t-upper t-light"><span class="price">$ 3000</span> / one&minus;time&nbsp;payment</p>
-                            <p class="t-light">5 pages website</p>
+                            <p class="prices-sum t-upper"><span class="price">$ 3000</span> / one&minus;time&nbsp;payment</p>
+                            <p class="t-secondary">5 pages website</p>
 
                             <ul class="prices-list mt30">
                                 <li class="prices-item">Custom coded website</li>

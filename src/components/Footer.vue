@@ -15,7 +15,7 @@
 
             <button  class="btn mt20 mt-m0" @click="_store.openPopup">Ask a Question</button>
         </div>
-        <div class="footer-copy py20 t-center t-light fs12">
+        <div class="footer-copy py20 t-center t-secondary fs12">
             <a href="#" class="copy-link">© 2024 Creative Coders. All Rights Reserved</a>
         </div>
     </div>

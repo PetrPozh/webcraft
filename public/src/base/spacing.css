@@ -615,6 +615,7 @@
     .mx-m200 { margin: 0 200px !important; }
 
     /* MARGIN VERTICAL*/
+    .my-m0 { margin: 0 !important; }
     .my-m5 { margin: 5px 0 !important; }
     .my-m10 { margin: 10px 0 !important; }
     .my-m15 { margin: 15px 0 !important; }

@@ -13,7 +13,7 @@
 { color: var(--p-color) !important; }
 .t-secondary,
 .t-secondary *
-{ color: var(--s-color) !important; }
+{ color: var(--l-hover) !important; }
 .t-third,
 .t-third *
 { color: var(--t-color) !important; }
@@ -1732,6 +1732,7 @@
     .mx-m200 { margin: 0 200px !important; }
 
     /* MARGIN VERTICAL*/
+    .my-m0 { margin: 0 !important; }
     .my-m5 { margin: 5px 0 !important; }
     .my-m10 { margin: 10px 0 !important; }
     .my-m15 { margin: 15px 0 !important; }
@@ -2937,6 +2938,7 @@
 .fs12 *
 { font-size: clamp(12px, 0.7045rem + 0.2273vw, 14px) !important; }
 
+
 @media (min-width: var(-screen-s))
 {
     .t-s-center { text-align: center; }
@@ -3077,6 +3079,8 @@ a
     min-height: 100px;
 }
 
+
+
 .logo-img 
 {
     width: 80px;
@@ -3142,7 +3146,7 @@ a
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     z-index: 99;
 }
@@ -3244,7 +3248,6 @@ a
     position: absolute;
     top: 55%; left: 0;
     width: 100%;
-    text-align: left;
     padding: 0 20px;
     font-size: 12px !important;
     color: var(--l-hover);
@@ -3395,6 +3398,7 @@ a
 {
     font-size: 12px;
     width: 100%;
+    color: var(--l-hover) !important;
 }
 
 
@@ -3481,18 +3485,20 @@ a
     font-family: VipnRegular;
     font-weight: 400;
     font-size: 20px;
-    color: var(--l-hover);
+    color: var(--l-color);
 }
 
 
 .prices-sum 
 {
     font-size: 9px;
+    color: var(--l-color);
 }
 
 .price 
 {
     font-size: 30px;
+    color: var(--l-hover);
 }
 
 .prices-list 
@@ -3539,12 +3545,23 @@ a
 
 /* ///////////////////////////////////////// */
 
+.footer-logo 
+{
+    min-width: 202px;
+}
+
 .footer-nav
 {
     min-height: 120px;
     padding: 5px 0;
     border-top: 1px solid var(--d-hover);
     border-bottom: 1px solid var(--d-hover);
+}
+
+.footer-nav .nav-link 
+{
+    margin: 0 15px;
+    color: var(--l-hover);
 }
 
 .footer-nav .nav-link:hover 
@@ -3570,7 +3587,7 @@ a
 
 .about-text 
 {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /* ///////////////////////////////////////// */
@@ -3812,6 +3829,11 @@ a
         display: none;
     }
 
+    .footer-logo 
+    {
+        min-width: auto;
+    }
+
 
     /* /////////////////////// */
 
@@ -3826,7 +3848,7 @@ a
 {
     .logo-img 
     {
-        height: 40px;
+        height: 70px;
     }
 
     .get-link
@@ -4437,7 +4459,7 @@ hr
 {
     font-size: 14px;
     text-transform: uppercase;
-    color: var(--l-color);
+    color: var(--l-hover);
 }
 
 .slogan:before 

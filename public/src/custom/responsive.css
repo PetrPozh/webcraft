@@ -179,6 +179,11 @@
         display: none;
     }
 
+    .footer-logo 
+    {
+        min-width: auto;
+    }
+
 
     /* /////////////////////// */
 
@@ -193,7 +198,7 @@
 {
     .logo-img 
     {
-        height: 40px;
+        height: 70px;
     }
 
     .get-link

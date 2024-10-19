@@ -16,12 +16,15 @@
                 </div>
 
                 <div v-if="_store.menu" class="mob-menu">
-                    <router-link @click="_store.closeMenu" to="/about" class="nav-link">About</router-link>
-                    <router-link @click="_store.scrollPage('services')" to="/#services" class="nav-link">Services</router-link>
-                    <router-link @click="_store.scrollPage('portfolio')" to="/#portfolio" class="nav-link">Portfolio</router-link>
-                    <router-link @click="_store.scrollPage('contacts')" to="/#contacts" class="nav-link">Contacts</router-link>
+                    <div class="fx f-col pb20">
+                        <router-link @click="_store.closeMenu" to="/about" class="nav-link">About</router-link>
+                        <router-link @click="_store.scrollPage('services')" to="/#services" class="nav-link">Services</router-link>
+                        <router-link @click="_store.scrollPage('portfolio')" to="/#portfolio" class="nav-link">Portfolio</router-link>
+                        <router-link @click="_store.scrollPage('contacts')" to="/#contacts" class="nav-link">Contacts</router-link>
+                    </div>
+                    
 
-                    <div class="mt60 t-center">
+                    <div class="t-center">
                         <a href="#" target="_blank"><img src="/img/fb.webp" alt="" class="popup-social"></a>
                         <a href="#" arget="_blank"><img src="/img/inst.webp" alt="" class="popup-social"></a>
                         <a href="#" arget="_blank"><img src="/img/tg.webp" alt="" class="popup-social"></a>

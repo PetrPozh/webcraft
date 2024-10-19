@@ -13,7 +13,7 @@
 { color: var(--p-color) !important; }
 .t-secondary,
 .t-secondary *
-{ color: var(--s-color) !important; }
+{ color: var(--l-hover) !important; }
 .t-third,
 .t-third *
 { color: var(--t-color) !important; }
